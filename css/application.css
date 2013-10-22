@@ -84,6 +84,7 @@ label div {
 #googleForm {
   width: 800px;
   margin:  0 auto;
+  margin-bottom: 40px;
 }
 
 #googleForm label sup {
