@@ -1,31 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Crime IO - Case Management &amp; Crime Analysis</title>
-        <meta name="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Crime IO - Case Management &amp; Crime Analysis</title>
+    <meta name="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- DNS Prefetch, This helps third party Google hosted libaries to load faster -->
-        <link rel="dns-prefetch" href="//ajax.googleapis.com">
-        <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <!-- DNS Prefetch, This helps third party Google hosted libaries to load faster -->
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-    </head>
-    <body>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href="css/application.css" rel="stylesheet" type="text/css">
 
-    	CRIME iO
-    	
-			<script>
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </head>
+  <body>
 
-			  ga('create', 'UA-45019022-1', 'crimeio.com');
-			  ga('send', 'pageview');
+    <section id="page">
 
-			</script>
+      <header id="header">
 
-    </body>
+        <div id="logo">CRIME iO <span>Case Management &amp; Crime Analysis</span></div>
+
+        <span id="email">Email Us Today! <br><a href="mailto:info@crimeio.com">info@crimeio.com</a></span>
+      </header>
+
+      <section id="content">
+
+        <p id="info">We're building tools to help improve law enforcement. To download our crime calculator tool, fill out the form.</p>
+
+        <form action="https://docs.google.com/forms/d/1YH8dI0dcKeJBysuEv_FnRCBWSbLc0mMjIBVXhl8atHo/formResponse" method="POST" id="googleForm" target="googleFormPost">
+          
+          <div id="fields">
+            <label class="ss-q-item-label" for="entry_1482010780">Name <sup>*</sup></label>
+            <input type="text" name="entry.1482010780" id="entry_1482010780" class="required">
+
+            <label class="ss-q-item-label" for="entry_801438720">Phone <sup>*</sup></label>
+            <input type="text" name="entry.801438720" id="entry_801438720" class="required">
+            
+            <label class="ss-q-item-label" for="entry_852791289">Email <sup>*</sup></label>
+            <input type="text" name="entry.852791289" id="entry_852791289" class="required">
+            
+            <label class="ss-q-item-label" for="entry_325415841">Agency <sup>*</sup></label>
+            <input type="text" name="entry.325415841" id="entry_325415841" class="required">
+
+            <label class="ss-q-item-label" for="entry_2133921715">Did you receive a business card?
+            <div><span><input type="radio" name="entry.212191986" value="Yes" id="group_212191986_1">Yes</span>
+            <span><input type="radio" name="entry.212191986" value="No" id="group_212191986_2">No</span></div>
+            </label>
+          </div>
+
+          <div id="how-did-field">
+            <label class="ss-q-item-label" for="entry_1824825785">How did you hear about us?</label>
+            <textarea name="entry.1824825785" rows="8" cols="0" id="entry_1824825785"></textarea>
+          </div>
+
+          <input type="hidden" name="draftResponse" value="[]">
+          <input type="hidden" name="pageHistory" value="0">
+
+          <input type="submit" name="submit" value="Submit" id="ss-submit">
+
+        </form>
+
+        <iframe name="googleFormPost" class="hidden"></iframe>
+
+      </section>
+
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+
+		<script>
+		  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  // ga('create', 'UA-45019022-1', 'crimeio.com');
+		  // ga('send', 'pageview');
+
+		</script>
+
+  </body>
 </html>

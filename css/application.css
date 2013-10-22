@@ -1,0 +1,134 @@
+body {
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #004673;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.250em;
+}
+
+input[type=radio] {
+  width: auto;
+}
+
+input[type=submit] {
+  width: 150px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  float: right;
+}
+
+label {
+  font-size: 1.250em;
+}
+
+label div {
+  padding: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#header {
+  width: 800px;
+  margin:  0 auto;
+  padding:  30px 0;
+  padding-top: 20px;
+}
+
+#logo {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  width: 280px;
+  float: left;
+}
+
+#email {
+  float: right;
+  font-size: 1.750em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+  #logo span {
+    font-size: 0.208em;
+    display: block;
+    line-height: 0.610em;
+    font-style: italic;
+  }
+
+#content {
+  display: block;
+  clear: both;
+  width: 800px;
+  margin:  0 auto;
+  padding-top: 5px;
+}
+
+#googleForm {
+  width: 800px;
+  margin:  0 auto;
+}
+
+#googleForm label sup {
+  color: #f00;
+}
+
+#content #info {
+  font-size: 2.092em;
+  line-height: 1.250em;
+  width: 800px;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+
+#download-link {
+  font-size: 1.50em;
+  font-weight: bold;
+  background: #f4f4f4;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+form {
+  display: block;
+  float: left;
+  background: #f4f4f4;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#fields {
+  width: 350px;
+  float: left;
+}
+
+#how-did-field {
+  width: 400px;
+  float: left;
+  margin-left: 35px;
+}
+
+  #how-did-field textarea {
+    height: 300px;
+  }
