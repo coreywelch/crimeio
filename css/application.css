@@ -22,6 +22,7 @@ textarea {
 
 input[type=radio] {
   width: auto;
+  border: none;
 }
 
 input[type=submit] {
