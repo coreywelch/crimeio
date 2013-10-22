@@ -97,6 +97,9 @@ label div {
   width: 800px;
   border: 1px solid #eee;
   padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #download-link {
