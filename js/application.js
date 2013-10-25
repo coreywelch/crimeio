@@ -25,7 +25,7 @@ $(function () {
       e.preventDefault();
     } else {
     	$('#googleForm').hide();
-    	$('#content').append('        <p id="download-link">Download Crime Calculator: <a href="https://dl.dropboxusercontent.com/s/8mqrfevr6kapc6d/crime-calculator.xlsm?token_hash=AAGIDKwNZBJcRC7AemtXu2lzANS-d8e6EjJumLcH0p-9GA&dl=1">Crime Calculator Tool</a></p>');
+    	$('#content').append('        <p id="download-link">Download: <a href="https://dl.dropboxusercontent.com/s/8mqrfevr6kapc6d/crime-calculator.xlsm?token_hash=AAGIDKwNZBJcRC7AemtXu2lzANS-d8e6EjJumLcH0p-9GA&dl=1">Crime Calculator Tool</a></p>');
     }
 
   });
